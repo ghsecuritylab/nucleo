@@ -60,6 +60,12 @@
 #define CHECKSUM_BY_HARDWARE 0
 /*-----------------------------------------------------------------------------*/
 
+#define LWIP_DEBUG 1
+
+#define UDP_DEBUG LWIP_DBG_ON
+
+#define DHCP_DEBUG LWIP_DBG_ON
+
 /* LwIP Stack Parameters (modified compared to initialization value in opt.h) -*/
 /* Parameters set in STM32CubeMX LwIP Configuration GUI -*/
 /*----- Value in opt.h for LWIP_DHCP: 0 -----*/

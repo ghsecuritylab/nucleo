@@ -53,9 +53,7 @@ typedef int sys_prot_t;
 #define X32_F "x"
 #define SZT_F "uz" 
 
-
-#define LWIP_PLATFORM_DIAG(message)
-
+#define LWIP_PLATFORM_DIAG(message) do {printf message;} while(0)
 
 /* define compiler specific symbols */
 #if defined (__ICCARM__)
