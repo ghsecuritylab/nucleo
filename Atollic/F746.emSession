@@ -2,7 +2,6 @@
 <session>
  <Bookmarks/>
  <Breakpoints groups="Breakpoints" active_group="Breakpoints">
-  <BreakpointListItem trigger="" line="265" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="2" filename="Src/main.c" useHWbreakpoint="false"/>
   <Exceptions set="MemManage;UsageFault_Coprocessor;UsageFault_CheckingError;UsageFault_StateError;BusFault;ExceptionEntryReturnFault;HardFault"/>
  </Breakpoints>
  <ExecutionProfileWindow/>
@@ -30,12 +29,17 @@
   <ProjectSessionItem path="F746;F746"/>
   <ProjectSessionItem path="F746;F746;CMSIS Files"/>
   <ProjectSessionItem path="F746;F746;Drivers"/>
-  <ProjectSessionItem path="F746;F746;Drivers;STM32F7xx_HAL_Driver"/>
-  <ProjectSessionItem path="F746;F746;Drivers;STM32F7xx_HAL_Driver;Src"/>
+  <ProjectSessionItem path="F746;F746;Drivers;CMSIS"/>
+  <ProjectSessionItem path="F746;F746;Drivers;CMSIS;Device"/>
+  <ProjectSessionItem path="F746;F746;Drivers;CMSIS;Device;ST"/>
+  <ProjectSessionItem path="F746;F746;Drivers;CMSIS;Device;ST;STM32F7xx"/>
+  <ProjectSessionItem path="F746;F746;Drivers;CMSIS;Device;ST;STM32F7xx;Source"/>
+  <ProjectSessionItem path="F746;F746;Drivers;CMSIS;Device;ST;STM32F7xx;Source;Templates"/>
   <ProjectSessionItem path="F746;F746;Middlewares"/>
   <ProjectSessionItem path="F746;F746;Middlewares;Third_Party"/>
   <ProjectSessionItem path="F746;F746;Middlewares;Third_Party;FreeRTOS"/>
   <ProjectSessionItem path="F746;F746;Middlewares;Third_Party;FreeRTOS;Source"/>
+  <ProjectSessionItem path="F746;F746;Middlewares;Third_Party;FreeRTOS;Source;CMSIS_RTOS"/>
   <ProjectSessionItem path="F746;F746;Middlewares;Third_Party;FreeRTOS;Source;include"/>
   <ProjectSessionItem path="F746;F746;Middlewares;Third_Party;FreeRTOS;Source;portable"/>
   <ProjectSessionItem path="F746;F746;Middlewares;Third_Party;FreeRTOS;Source;portable;GCC"/>
@@ -44,8 +48,8 @@
   <ProjectSessionItem path="F746;F746;Middlewares;Third_Party;LwIP"/>
   <ProjectSessionItem path="F746;F746;Middlewares;Third_Party;LwIP;src"/>
   <ProjectSessionItem path="F746;F746;Middlewares;Third_Party;LwIP;src;api"/>
-  <ProjectSessionItem path="F746;F746;Middlewares;Third_Party;LwIP;src;include"/>
-  <ProjectSessionItem path="F746;F746;Middlewares;Third_Party;LwIP;src;include;lwip"/>
+  <ProjectSessionItem path="F746;F746;Middlewares;Third_Party;LwIP;src;core"/>
+  <ProjectSessionItem path="F746;F746;Middlewares;Third_Party;LwIP;src;core;ipv4"/>
   <ProjectSessionItem path="F746;F746;Middlewares;Third_Party;LwIP;system"/>
   <ProjectSessionItem path="F746;F746;Middlewares;Third_Party;LwIP;system;arch"/>
   <ProjectSessionItem path="F746;F746;Src"/>
@@ -90,12 +94,19 @@
   <SessionOpenFile x="0" y="41" useTextEdit="1" useBinaryEdit="0" left="0" path="Middlewares/Third_Party/LwIP/src/api/api_lib.c" debugPath="Middlewares/Third_Party/LwIP/src/api/api_lib.c" selected="0" top="18" codecName="Default"/>
   <SessionOpenFile x="0" y="42" useTextEdit="1" useBinaryEdit="0" left="0" path="Middlewares/Third_Party/LwIP/src/include/lwip/arch.h" debugPath="Middlewares/Third_Party/LwIP/src/include/lwip/arch.h" selected="0" top="19" codecName="Default"/>
   <SessionOpenFile x="0" y="34" useTextEdit="1" useBinaryEdit="0" left="0" path="Middlewares/Third_Party/LwIP/system/arch/sys_arch.h" debugPath="Middlewares/Third_Party/LwIP/system/arch/sys_arch.h" selected="0" top="11" codecName="Default"/>
-  <SessionOpenFile x="0" y="264" useTextEdit="1" useBinaryEdit="0" left="0" path="Src/main.c" debugPath="Src/main.c" selected="0" top="253" codecName=""/>
-  <SessionOpenFile x="0" y="293" useTextEdit="1" useBinaryEdit="0" left="0" path="Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c" debugPath="Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c" selected="0" top="282" codecName=""/>
-  <SessionOpenFile x="0" y="58" useTextEdit="1" useBinaryEdit="0" left="0" path="STM32F7x6_Vectors.s" debugPath="STM32F7x6_Vectors.s" selected="0" top="47" codecName=""/>
-  <SessionOpenFile x="0" y="354" useTextEdit="1" useBinaryEdit="0" left="0" path="Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c" debugPath="Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c" selected="0" top="343" codecName=""/>
-  <SessionOpenFile x="0" y="2720" useTextEdit="1" useBinaryEdit="0" left="0" path="Middlewares/Third_Party/FreeRTOS/Source/tasks.c" debugPath="Middlewares/Third_Party/FreeRTOS/Source/tasks.c" selected="1" top="2709" codecName=""/>
-  <SessionOpenFile x="0" y="54" useTextEdit="1" useBinaryEdit="0" left="0" path="Src/stm32f7xx_hal_msp.c" debugPath="Src/stm32f7xx_hal_msp.c" selected="0" top="52" codecName=""/>
+  <SessionOpenFile x="0" y="66" useTextEdit="1" useBinaryEdit="0" left="0" path="Src/main.c" debugPath="Src/main.c" selected="0" top="55" codecName="Default"/>
+  <SessionOpenFile x="0" y="293" useTextEdit="1" useBinaryEdit="0" left="0" path="Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c" debugPath="Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c" selected="0" top="282" codecName="Default"/>
+  <SessionOpenFile x="0" y="58" useTextEdit="1" useBinaryEdit="0" left="0" path="STM32F7x6_Vectors.s" debugPath="STM32F7x6_Vectors.s" selected="0" top="47" codecName="Default"/>
+  <SessionOpenFile x="0" y="354" useTextEdit="1" useBinaryEdit="0" left="0" path="Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c" debugPath="Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c" selected="0" top="343" codecName="Default"/>
+  <SessionOpenFile x="0" y="2720" useTextEdit="1" useBinaryEdit="0" left="0" path="Middlewares/Third_Party/FreeRTOS/Source/tasks.c" debugPath="Middlewares/Third_Party/FreeRTOS/Source/tasks.c" selected="0" top="2709" codecName="Default"/>
+  <SessionOpenFile x="0" y="54" useTextEdit="1" useBinaryEdit="0" left="0" path="Src/stm32f7xx_hal_msp.c" debugPath="Src/stm32f7xx_hal_msp.c" selected="0" top="52" codecName="Default"/>
+  <SessionOpenFile x="0" y="0" useTextEdit="1" useBinaryEdit="0" left="0" path="Drivers/CMSIS/Device/ST/STM32F7xx/Source/Templates/gcc/startup_stm32f746xx.s" debugPath="Drivers/CMSIS/Device/ST/STM32F7xx/Source/Templates/gcc/startup_stm32f746xx.s" selected="0" top="81" codecName="Default"/>
+  <SessionOpenFile x="0" y="1525" useTextEdit="1" useBinaryEdit="0" left="0" path="Middlewares/Third_Party/FreeRTOS/Source/queue.c" debugPath="Middlewares/Third_Party/FreeRTOS/Source/queue.c" selected="0" top="1514" codecName=""/>
+  <SessionOpenFile x="0" y="245" useTextEdit="1" useBinaryEdit="0" left="0" path="Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1/port.c" debugPath="Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1/port.c" selected="0" top="222" codecName=""/>
+  <SessionOpenFile x="0" y="706" useTextEdit="1" useBinaryEdit="0" left="0" path="Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c" debugPath="Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c" selected="0" top="695" codecName=""/>
+  <SessionOpenFile x="0" y="102" useTextEdit="1" useBinaryEdit="0" left="0" path="Src/ethernetif.c" debugPath="Src/ethernetif.c" selected="0" top="91" codecName=""/>
+  <SessionOpenFile x="0" y="68" useTextEdit="1" useBinaryEdit="0" left="0" path="STM32F7xx_Startup.s" debugPath="STM32F7xx_Startup.s" selected="0" top="57" codecName=""/>
+  <SessionOpenFile x="0" y="429" useTextEdit="1" useBinaryEdit="0" left="0" path="Middlewares/Third_Party/LwIP/src/core/ipv4/dhcp.c" debugPath="Middlewares/Third_Party/LwIP/src/core/ipv4/dhcp.c" selected="0" top="417" codecName="Default"/>
  </Files>
  <ARMCrossStudioWindow activeProject="F746" fileDialogDefaultFilter="*.asm;*.s;*.inc" autoConnectTarget="J-Link" buildConfiguration="Debug" debugSearchFileMap="" fileDialogInitialDirectory="/Users/Kenny/Desktop/Cube.Nucleo/Atollic" debugSearchPath="" autoConnectCapabilities="3711"/>
 </session>
